@@ -15,12 +15,7 @@
 
   <name>petclinic</name>
 
-#  <scm>
-#    <connection>scm:git://github.com/Prathushadevijsgd/spring-petclinic.git</connection>
-#    <developerConnection>scm:git://github.com/Prathushadevijsgd/spring-petclinic.git</developerConnection>
-#    <url>https://github.com/Prathushadevijsgd/spring-petclinic</url>
-#   <tag>HEAD</tag>
-#  </scm>
+
 
   <scm>
     <!-- Read-only connection (used for cloning the repo) -->
