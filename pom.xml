@@ -15,12 +15,27 @@
 
   <name>petclinic</name>
 
+#  <scm>
+#    <connection>scm:git://github.com/Prathushadevijsgd/spring-petclinic.git</connection>
+#    <developerConnection>scm:git://github.com/Prathushadevijsgd/spring-petclinic.git</developerConnection>
+#    <url>https://github.com/Prathushadevijsgd/spring-petclinic</url>
+#   <tag>HEAD</tag>
+#  </scm>
+
   <scm>
-    <connection>scm:git://github.com/Prathushadevijsgd/spring-petclinic.git</connection>
-    <developerConnection>scm:git://github.com/Prathushadevijsgd/spring-petclinic.git</developerConnection>
+    <!-- Read-only connection (used for cloning the repo) -->
+    <connection>scm:git:https://github.com/Prathushadevijsgd/spring-petclinic.git</connection>
+    
+    <!-- Developer connection (used for pushing changes) -->
+    <developerConnection>scm:git:https://github.com/Prathushadevijsgd/spring-petclinic.git</developerConnection>
+    
+    <!-- URL of the repository for browsing -->
     <url>https://github.com/Prathushadevijsgd/spring-petclinic</url>
-   <tag>HEAD</tag>
+    
+    <!-- The tag (or branch) to use for the release, HEAD is fine for the latest commit -->
+    <tag>HEAD</tag>  <!-- Alternatively, use a specific branch or tag name if needed -->
   </scm>
+
 
   <properties>
 
